@@ -56,7 +56,6 @@ Here is a plot of  traffic signs images:
 ![alt text][image3]
 As we see images don't look good, some images displayed have a low contrast and a bad illumination.These aspects can influence the accuracy of our trained model.
 
-
 ### Data preprocessing
 
 For object recognition there are a several  parameters that need to be taken in consideration for achieving a good accuracy:
@@ -102,8 +101,6 @@ My final model consisted of the following layers:
 |						|												|
 |						|												|
  
-
-
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I used  Adam Optimizer and the following hyperparameters:
@@ -143,14 +140,16 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image7] ![alt text][image8] ![alt text][image9] 
 ![alt text][image10] ![alt text][image11]
+
 The images witch I found from Google weren't   difficult for the model to classify because images looks good.None of them have 
 low-contrast ,colors fading, graffiti or other problems that are in the real world.
+
 ![alt text][image12]
-CACHE transformation on the new images.
+
+Here is an image with CACHE transformation of the new images.
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 The performance of the model on the test set was 0.931 and the performance of the new test set (new 5 images) was 1.00.
 Which is a good score.
-
 
 Here are the results of the prediction:
 
